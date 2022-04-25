@@ -1,0 +1,8 @@
+Fri, 17 Dec 2021 21:35:57 GMT; 127.0.0.1; /; 200 OK
+Fri, 17 Dec 2021 21:35:57 GMT; 127.0.0.1; /favicon.ico; 403 Forbidden
+Fri, 17 Dec 2021 21:41:28 GMT; 127.0.0.1; /smth.wrong; 403 Forbidden
+Fri, 17 Dec 2021 21:45:59 GMT; 127.0.0.1; /test; 403 Forbidden
+Fri, 17 Dec 2021 21:46:17 GMT; 127.0.0.1; /test.png; 200 OK
+Fri, 17 Dec 2021 21:46:17 GMT; 127.0.0.1; /favicon.ico; 403 Forbidden
+Fri, 17 Dec 2021 21:46:41 GMT; 127.0.0.1; /test.jpeg; 200 OK
+Fri, 17 Dec 2021 21:46:41 GMT; 127.0.0.1; /favicon.ico; 403 Forbidden

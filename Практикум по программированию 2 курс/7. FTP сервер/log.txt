@@ -1,0 +1,97 @@
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: 
+request: yangin=loginyan=password\=cur_dir0=file_sizemkdir test
+response: successfully
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: test
+request: yangin=loginyan=password\=cur_dir0=file_sizermtree test
+response: successfully
+request: yangin=loginyan=password\=cur_dir0=file_sizetouch file.txt
+response: successfully
+request: yangin=loginyan=password\=cur_dir0=file_sizerename file.txt file123.txt
+response: successfully
+request: yangin=loginyan=password\=cur_dir0=file_sizeremove file123.txt
+response: successfully
+request: yangin=loginyan=password\=cur_dir0=file_sizemkdir new_folder
+response: successfully
+Прослушиваем порт 6666
+Прослушиваем порт 6666
+Прослушиваем порт 6666
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: new_folder
+request: yangin=loginyan=password\=cur_dir0=file_sizecd C:\Users\Yangin\Desktop\Практикум по программированию\7. FTP сервер\yangin\new_folder
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: new_folder
+request: yangin=loginyan=password\=cur_dir0=file_sizecd new_folde
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizecd new_folder
+response: \new_folder\
+request: yangin=loginyan=password\new_folder\=cur_dir0=file_sizels
+response: 1.xlsx
+request: yangin=loginyan=password\new_folder\=cur_dir0=file_sizeget_file 1.xlsx
+Has been sent
+response: b'$$STREAM_FILE_END_FLAG$$'
+request: yangin=loginyan=password\new_folder\=cur_dir0=file_sizecd
+response: \new_folder\
+request: yangin=loginyan=password\new_folder\=cur_dir0=file_sizecd /
+
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizecd ..
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizecd ../
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizecd ...
+response: \
+request: yangin=loginyan=password\=cur_dir0=file_sizermdir
+response: bad request
+Прослушиваем порт 6666
+request: yangin=login123=password\=cur_dir0=file_sizermdir
+response: Incorrect password
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: new_folder
+request: yangin=loginyan=password\=cur_dir0=file_sizels
+response: bandicam 2021-08-31 23-27-40-665.avi
+new_folder
+request: test=logintest=password\=cur_dir0=file_sizemkdir test1
+response: successfully
+request: test=logintest=password\=cur_dir0=file_sizecd ...../test1
+response: \
+request: test=logintest=password\=cur_dir0=file_sizecd ./test1
+response: \test1\
+request: test=logintest=password\test1\=cur_dir0=file_sizemkdir ../test1/test11
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: test11
+request: test=logintest=password\test1\=cur_dir0=file_sizepwd
+response: \test1\
+request: test=logintest=password\test1\=cur_dir0=file_sizermtree test11
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: 
+request: test=logintest=password\test1\=cur_dir0=file_sizetouch 1.txt
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizerename 1.txt 11.txt
+response: successfully
+request: test=logintest=password\test1\=cur_dir0=file_sizels
+response: 11.txt
+request: test=logintest=password\test1\=cur_dir0=file_sizeremove 1.txt
+response: Invalid path
+request: test=logintest=password\test1\=cur_dir0=file_sizecat 1.txt
+response: Invalid path
+request: test=logintest=password\test1\=cur_dir0=file_sizecat 11.txt
+response: 
+request: test=logintest=password\test1\=cur_dir0=file_sizecd ////
+
+response: \
+request: test=logintest=password\=cur_dir0=file_sizepwd
+response: \
+request: test=logintest=password\=cur_dir0=file_sizecd \
+
+response: \
+request: test=logintest=password\=cur_dir0=file_sizepwd
+response: \
+request: test=logintest=password\=cur_dir0=file_sizermtree test1
+response: successfully
+request: test=logintest=password\=cur_dir0=file_sizels
+response: 
